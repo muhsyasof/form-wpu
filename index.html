@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">SURVEY</h1>
+    <p id="description">Isi From ini, Terima Kasih.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">
+            Name 
+            <input type="text" id="name" placeholder="Masukkan Namamu" required/>
+        </label>
+
+        <label for="email" id="email-label">
+            EMAIL
+            <input type="email" id="email" placeholder="Masukkan Emailmu" required/>
+        </label>
+
+        <label for="number" id="number-label">
+            Umur
+            <input type="number" id="number" placeholder="Berapa Umurmu?" min="15" max="50"/>
+        </label>
+
+        <label for="dropdown" id="dropdown-label">
+            Darimana Asalmu?
+            <select id="dropdown">
+                <option>Indonesia</option>
+                <option>Mamarika</option>
+            </select>
+        </label>
+
+        <label for="member" id="member-label">
+            Kapan Kamu Lulus SMA?
+        </label>
+        <input type="radio" name="member" value="1a" /> 2018 <br/>
+        <input type="radio" name="member" value="2a"/> 2019 <br/>
+        <input type="radio" name="member" value="3a"/> 2020 <br/>
+
+        <br/> <br/>
+        <label for="albums" id="albums-label">
+            Apa Saja Pengalaman Organisasi Kamu?
+        </label>
+        <input type="checkbox" value="1"/> BEM <br/>
+        <input type="checkbox" value="2"/> HIMPUNAN <br/>
+        <input type="checkbox" value="3"/> UKM <br/>
+
+        <br/> <br/>
+        <label for="comments" id="comments-label"> Apa Pendapatmu tentang Corona?
+            <textarea id="comments" cols="30" rows="10"></textarea>
+        </label>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+
+<!--VIDEO DI STOP DI 1 JAM-->
